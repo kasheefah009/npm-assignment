@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "status": "node src/index.js",
     "dev": "node --watch src/index.js"
-
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
   "homepage": "https://github.com/kasheefah009/npm-assignment#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2"
   }
 }

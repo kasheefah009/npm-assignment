@@ -3,8 +3,8 @@ import { dataReceived } from "../controllers/user.controller.js"
 
 const router = Router()
 
-router.get("/", (req, res) => {
-    res.json({
+router.get("/status", (req, res) => {
+    res.status(200).json({
         status: "online"
     })
 })
